@@ -13,7 +13,7 @@ services:
       dockerfile: Dockerfile
     restart: always
     volumes:
-      - $PWD:/app
+      - /mnt/c/Users/rmk0110/aqueduct:/app
     command: "true"
 
   web:
